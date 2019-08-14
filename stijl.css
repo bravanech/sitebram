@@ -1,0 +1,588 @@
+:root {
+      font-size: 62.5%;}
+
+body {
+  font-family: Lexend Deca;
+  font-size: 1.8rem;
+	padding: 3rem;
+}
+
+.titel {
+margin-top: 8rem;
+}
+
+main {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  z-index: 4;
+  margin-bottom: 3rem;
+  letter-spacing: .1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  background-color: blue;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  height: 8rem;
+  position: fixed;
+  top: 0rem;
+  left: -2rem;
+}
+
+h1:hover {
+  color: PowderBlue;
+  font-size: 2.9rem;
+  transition: font-size .2s
+}
+
+h2 {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+  font-weight: 800;
+  text-transform:uppercase;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: .5rem;
+}
+
+
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.contact {
+  width: 43rem;
+}
+
+.contactSegment:hover {
+  color: blue;
+}
+
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+
+.menu {
+  position: fixed;
+  top: 0rem;
+	right: 0rem;
+  background-color: white;
+  padding: 2.28rem;
+  z-index: 6;
+}
+
+
+
+nav {
+  z-index: 5;
+  position: fixed;
+  left: 2.65rem;
+  top: 8rem;
+	display: none;
+  flex-direction: column;
+  background-color: white;
+  width: 86vw;
+  text-align: center;
+}
+
+nav a {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: lightBlue;
+  font-size: 2.1rem;
+  transition: font-size .2s
+}
+
+.deel1 {
+  width: 90vw;
+  height: 150rem;
+  display: grid;
+  grid-gap: 0rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
+}
+
+.eerste {
+  grid-area: a;
+  background-image: url("GD2__POSTER01_VanEchelpoelB.png");
+  background-size: 102%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.tweede {
+  grid-area: b;
+  background-image: url("gbg18.JPG");
+  background-size: 103%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.derde {
+  grid-area: c;
+  background-image: url("bannerfinal.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.vierde {
+  grid-area: d;
+  background-image: url("fotografische poster.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Deel1Div {
+  position: relative;
+  top: 36,5rem;
+  width: auto;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: auto;
+  background-color: white;
+  color: blue;
+}
+
+.eerste:hover, .tweede:hover, .derde:hover, .vierde:hover {
+  margin: .5rem;
+  border-top: 10px solid blue;
+  transition: margin .2s;
+  transition: border-top .2s;
+}
+
+#imgDeel11, #imgDeel12, #imgDeel13, #imgDeel14 {
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  width: 30rem;
+}
+
+.dark {
+  font-size: 1.5rem;
+}
+
+.light {
+  font-size: 1.5rem;
+}
+
+}
+
+.overmij {
+  position: absolute;
+  z-index: -1;
+  margin-left: 10rem;
+}
+
+.overmij p {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.overmij h2 {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+#portret1 {
+  width: 20rem;
+  z-index: -2;
+  margin-left: -25rem;
+  margin-top: 5rem;
+}
+
+#portret2 {
+  width: 30rem;
+  z-index: -3;
+  margin-top: -20rem;
+  margin-left: 8rem;
+
+}
+
+#portret3 {
+  width: 20rem;
+  z-index: -2;
+  margin-left: 20rem;
+  margin-top: -5rem;
+}
+
+#portret4 {
+  width: 30rem;
+  z-index: -4;
+  margin-left: -13rem;
+  margin-top: -21rem;
+}
+
+.deel2 {
+  margin-top: 8rem;
+}
+
+
+.fotografie {
+  width: 90vw;
+  columns: 2;
+}
+
+#fotoKolom {
+  width: 21rem;
+  margin: 1rem;
+}
+
+.kader {
+      position: relative;
+      left: -7rem;
+}
+
+@media (min-width: 1200px) {
+nav {
+  position: absolute;
+  left: 73.9vw;
+  background-color: blue;
+  width: 20vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5rem;
+  color: white;
+}
+
+.paneel1 {
+      background-image:url(achtergrond.jpeg);
+      background-size:cover;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      border: 50px solid blue;
+      height: 97vh;
+      width: 98.93vw;
+      margin-left: -3rem;
+      position: relative;
+      color: blue;
+      font-size: 3rem;
+}
+
+.knopPaneel1 {
+  position: absolute;
+
+      left: 38vw;
+      bottom: 40vh;
+      width: auto;
+      padding: 1rem;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: white;
+      animation-name: blink;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+      15%, 80% {
+            transform: translate(0,.7rem);
+      }
+      45%, 55% {
+            opacity: 1;
+      }
+      50% {
+            opacity: 0.2;
+      }
+}
+
+.lightDark {
+  position: relative;
+  top: 35rem;
+  line-height: 1.5rem;
+}
+
+.dark {
+  font-size: 1.5rem;
+}
+
+.light {
+  font-size: 1.5rem;
+}
+
+nav a {
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+h1 {
+  z-index: 5;
+  margin-bottom: 3rem;
+  letter-spacing: .5rem;
+  font-size: 3.3rem;
+  font-weight: 800;
+  color: white;
+  background-color: blue;
+  padding: 2rem;
+  text-align: center;
+  position: fixed;
+  left: 0rem;
+  top: 0rem;
+  width: 100vw;
+}
+
+h1:hover {
+  color: PowderBlue;
+}
+
+.contact {
+  display: flex;
+  width: 50vw;
+}
+
+.contactSegment {
+  margin-left: 2rem;
+}
+
+
+
+main {
+  margin-top: 5rem;
+}
+
+
+.deel1 {
+  width: 90vw;
+  height: 66vh;
+  display: grid;
+  grid-gap: 0rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+      "a b c d";
+}
+
+.eerste {
+  grid-area: a;
+  background-image: url("GD2__POSTER01_VanEchelpoelB.png");
+  background-size: 102%;
+  background-repeat: no-repeat;
+}
+
+.tweede {
+  grid-area: b;
+  background-image: url("gbg18.JPG");
+  background-size: 103%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.derde {
+  grid-area: c;
+  background-image: url("bannerfinal.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.vierde {
+  grid-area: d;
+  background-image: url("fotografische poster.JPG");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Deel1Div {
+  position: relative;
+  top: 36,5rem;
+  width: auto;
+  height: 10rem;
+  padding-left: 1.5rem;
+  padding-top: .2rem;
+  background-color: white;
+  color: blue;
+}
+
+.eerste:hover, .tweede:hover, .derde:hover, .vierde:hover {
+  margin: .5rem;
+  border-top: 10px solid blue;
+  transition: margin .2s;
+  transition: border-top .2s;
+}
+
+footer {
+  position:absolute;
+  top: 420rem;
+  left: 15rem;
+  color: black;
+}
+
+.voet {
+  position: absolute;
+  top: 100rem;
+}
+
+h4 {
+  position: relative;
+  top:7rem;
+  font-size: 4rem;
+  height: 0rem;
+}
+
+.contact {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+  padding: 2rem;
+  width: 52rem;
+  height: 17rem;
+}
+
+.contactSegment:hover {
+  color: blue;
+}
+
+.contactSegment {
+  margin-left: 20rem;
+}
+
+.titel {
+  margin-top: 10rem;
+}
+
+.overmij {
+  width: 40vw;
+  position: absolute;
+  z-index: -1;
+  margin-left: 10rem;
+}
+
+.overmij p {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.overmij h2 {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+#portret1 {
+  width: 33rem;
+  z-index: -2;
+  position: absolute;
+  left: 10rem;
+  top: 22rem;
+  margin: auto;
+}
+
+#portret2 {
+  width: 30rem;
+  position: absolute;
+  top: 65rem;
+  left: 70rem;
+  z-index: -3;
+  overflow: visible;
+  margin: auto;
+}
+
+#portret3 {
+  width: 25rem;
+  position: absolute;
+  left: 15rem;
+  top: 60rem;
+  z-index: -2;
+  overflow: visible;
+  margin: auto;
+}
+
+#portret4 {
+  width: 45rem;
+  position: absolute;
+  left: 28rem;
+  top: 62rem;
+  z-index: -3;
+  overflow: visible;
+  margin: auto;
+}
+
+.deel2 {
+  margin-top: 20rem;
+}
+
+
+.fotografie {
+  width: 75vw;
+  columns: 3;
+}
+
+#fotoKolom {
+  width: 35rem;
+  margin: 2rem;
+}
+
+iframe {
+      margin-left: -10px;
+}
+
+.kader {
+      position: absolute;
+      left: 75rem;
+      top: 395rem;
+      margin: 1rem auto;
+      overflow: visible;
+      width: 610px;
+      height: 430px;
+}
+
+}
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+
+	@media (min-width: 80rem) {
+		/* een voorbeeld van een media query: hier schrijf je de css die wordt uitgevoerd indien het scherm minstens 800px breedte biedt */
+
+	}
+
+}
